@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Portfolio - Portfolio Theme</title>
+	<meta name="description" content="An HTML portfolio theme built"/>
+	<meta name="keywords" content="portfolio, theme, bootstrap, grid"/>
+	<meta name="author" content="Alikerock"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+	
+	<!-- include jQuery & cycle2 -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js" integrity="sha512-lvcHFfj/075LnEasZKOkj1MF6aLlWtmpFEyd/Kc+waRnlulG5er/2fEBA5DBff4BZrcwfvnft0PiAv4cIpkjpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+	
+	<header>
+		<div class="container clearfix">
+			<h1 class="logo">
+				<a href="index.html">Logo</a>
+			</h1>
+			<nav>
+				<ul class="clearfix">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="about.html">About us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<div class="page_banner portfolio">
+		<h2 class="fancy-box gray main_tt">Portfolio</h2>
+	</div>
+	
+	<div class="main_content subpage container">
+		<h3>Current Project</h3>
+		<h2 class="content_tt">Project name</h2>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		</p>
+		<hr/>
+		<p class="portfolio_nav clearfix">
+			<a href="#" class="prev_project">&larr; previous project</a>
+			<a href="#" class="next_project">next project &rarr;</a>
+		</p>
+		
+		<div class="banner portfolio_slider">
+			<div class="banner_list cycle-slideshow"
+			data-cycle-fx="scrollHorz" 
+			data-cycle-timeout="0"
+			data-cycle-prev=".banner .prev"
+			data-cycle-next=".banner .next"					
+			>			
+				<img src="images/slide-1-bg.jpg" alt="slide1"/>			
+				<img src="images/slide-2-bg.jpg" alt="slide1"/>			
+				<img src="images/slide-3-bg.jpg" alt="slide1"/>			
+			</div>
+			<p class="controls">
+				<a href="#" class="prev">
+					<i class="fas fa-chevron-left"></i>
+				</a>
+				<a href="#" class="next">
+					<i class="fas fa-chevron-right"></i>
+				</a>
+			</p>
+		</div><!--//banner-->
+	
+	</div><!--//main_content-->
+	
+	<footer>
+		<span class="envelope_icon fancy-box orange">
+			<i class="fas fa-envelope "></i>
+		</span>
+		<div class="subscribe">
+			<p>
+			Wanna see my latest photos? Enter your email below and I'll send you one email a month with the latest updates.
+			</p>
+			<form action="#" method="post">
+				<input type="email" name="email" placeholder="Your email address"/>
+				
+				<input type="submit" value="Subscribe" class="btn"/>
+			</form>
+		</div>
+		<p class="share">
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+		</p>
+		<p class="copy">
+			&copy; 2018 portfolio theme.
+		</p>
+	</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
